@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 
 
 
@@ -6,6 +7,7 @@
 
 
 {% block content %}
+<img src="{% static 'img/modern.jpg' %}">
 <h1>About us</h1>
 <p>XYZ company delivers the best services now and for tomorrow. Contact us today!</p>
 {% endblock content %}
